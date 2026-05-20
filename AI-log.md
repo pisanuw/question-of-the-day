@@ -21,3 +21,9 @@ Only one question is visible per day
 Any questions?
 
 2026-05-19T00:02 User: Implement chess renderer
+
+2026-05-19T00:03 User: Show me a chess puzzle question
+
+2026-05-19T00:04 User: Make sure the chess positions are legal. The example I got halready had black in check when it was white's turn to move
+
+2026-05-19T00:05 User: move it into the repo
