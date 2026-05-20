@@ -13,3 +13,9 @@ Format: `YYYY-MM-DD [type] description` (max 200 chars). Types: decision, plan, 
 2026-05-19 [code] Wrote chess validator (/tmp/chess_validator.js) that checks each puzzle's start position is legal (Black not in check on White's move) and that the stated mate move actually mates. Caught 4 issues in initial set: P1 Qa1, P6 Qh1, P7 Qg2 all on long diagonals giving illegal starting check; P4 Qd8# escaped to h7. Fixed all 4; all 20 puzzles now pass.
 
 2026-05-19 [code] Moved validator into repo at tools/validate_chess.js (uses path-relative load via vm sandbox; no /tmp scratch file). Run with `node tools/validate_chess.js`; exits 1 if any puzzle is invalid.
+
+2026-05-19 [doc] Wrote README.md covering categories, rotation, run/preview, file layout, chess data format + validator, and how to add questions. Includes live URL https://troll-under-bridge.netlify.app/.
+
+2026-05-19 [doc] Added GitHub source link to README: https://github.com/pisanuw/question-of-the-day.
+
+2026-05-19 [note] Project externally hosted at https://troll-under-bridge.netlify.app/ (Netlify). Source repo: https://github.com/pisanuw/question-of-the-day.

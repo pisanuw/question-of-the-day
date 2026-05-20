@@ -27,3 +27,11 @@ Any questions?
 2026-05-19T00:04 User: Make sure the chess positions are legal. The example I got halready had black in check when it was white's turn to move
 
 2026-05-19T00:05 User: move it into the repo
+
+2026-05-19T00:06 User: write a readme for this project
+
+2026-05-19T00:07 User: Add it is deployed at https://troll-under-bridge.netlify.app/
+
+2026-05-19T00:08 User: REpo is at https://github.com/pisanuw/question-of-the-day add to readme
+
+2026-05-19T00:09 User: /close
