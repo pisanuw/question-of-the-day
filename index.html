@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Question of the Day</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>Question of the Day</h1>
+      <p class="meta">
+        <span id="date"></span> · <span id="category"></span>
+      </p>
+    </header>
+
+    <section id="question-section">
+      <div id="board" class="board hidden" aria-hidden="true"></div>
+      <p id="question" class="question"></p>
+
+      <form id="answer-form">
+        <label for="answer">Your answer</label>
+        <textarea id="answer" name="answer" rows="5" placeholder="Type your answer here..." required></textarea>
+        <div class="actions">
+          <button type="submit">Submit</button>
+          <button type="button" id="reveal-btn" class="secondary">Reveal solution</button>
+        </div>
+      </form>
+
+      <div id="result" class="result hidden">
+        <h2>Your answer</h2>
+        <p id="your-answer" class="your-answer"></p>
+        <h2>Solution</h2>
+        <p id="solution" class="solution"></p>
+        <button type="button" id="reset-btn" class="secondary small">Clear today's answer</button>
+      </div>
+    </section>
+
+    <footer>
+      <p class="footnote">Come back tomorrow for a new question.</p>
+    </footer>
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
